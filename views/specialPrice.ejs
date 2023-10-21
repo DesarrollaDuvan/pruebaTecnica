@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precio Especial</title>
+    <link rel="stylesheet" type="text/css" href="/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/products.css" />
+</head>
+<body>
+    <Header><h1>Precio Especial</h1></Header>
+    <div class="container">
+        <ul class="container product-list">
+            <li class="product-item">
+                <div class="product-info">
+                    <h2>Precio Especial</h2>
+                    <p>Usuario ID: <%= user_id %></p>
+                    <p>Nombre del Producto: <%= nombre_producto %></p>
+                    <p>Precio Especial: $<%= precio.toFixed(2) %></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

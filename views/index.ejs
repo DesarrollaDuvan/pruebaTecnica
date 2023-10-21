@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Zapatillas</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tienda de Zapatillas</h1>
+    </header>
+    <div class="container">
+      <h2>Bienvenido a la Tienda de Zapatillas</h2>
+      <p>Seleccione una opción:</p>
+      <ul class="container">
+        <li class="productos">
+          <a href="/productos" class="styled-link"> Ver Productos en Stock </a>
+        </li>
+        <li>
+          <form id="price-form" action="/precio" method="GET">
+            <div class="styled-form">
+              <label for="user_id_input">User ID</label>
+              <select name="user_id" id="user_id_input" class="styled-input">
+                <option value="cliente1">Cliente 1</option>
+                <option value="cliente2">Cliente 2</option>
+                <option value="cliente3">Cliente 3</option>
+              </select>
+
+              <label for="nombre_producto_input">Nombre Producto</label>
+              <select
+                name="nombre_producto"
+                id="nombre_producto_input"
+                class="styled-input"
+              >
+                <option value="Nike">Nike</option>
+                <option value="Puma">Puma</option>
+                <option value="Adidas">Adidas</option>
+              </select>
+
+              <button type="submit" class="styled-button">
+                Consultar Precio Especial
+              </button>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>

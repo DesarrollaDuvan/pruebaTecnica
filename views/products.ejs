@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos en Stock</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="styles/products.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Productos en Stock</h1>
+    </header>
+    <div class="container">
+      <ul class="container product-list">
+        <% productsInStock.forEach((product) => { %>
+        <li class="product-item">
+          <div class="product-info">
+            <h2><%= product.nombre %></h2>
+            <p>Precio: $<%= product.precio.toFixed(2) %></p>
+          </div>
+        </li>
+        <% }); %>
+      </ul>
+    </div>
+  </body>
+</html>

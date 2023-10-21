@@ -1,0 +1,31 @@
+/* Estilos para una lista de productos en stock */
+
+/* Estilo de lista */
+.product-list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  /* Estilo de elementos de productos */
+  .product-item {
+    flex-basis: calc(33.33% - 10px); 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Estilo para la información del producto */
+  .product-info {
+    text-align: center; 
+  }
+  
+  .product-info h2 {
+    font-size: 18px; 
+    margin: 10px 0; 
+  }
+  

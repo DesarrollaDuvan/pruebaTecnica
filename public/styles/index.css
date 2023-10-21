@@ -1,0 +1,89 @@
+/* Estilos generales del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elimina los puntos de las listas desordenadas (ul) */
+ul {
+  list-style-type: none;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilos del contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para títulos de nivel 1 */
+h1 {
+  font-size: 24px;
+}
+/* Estilo para boton de ver productos */
+.productos {
+  margin-bottom: 20px;
+}
+
+/* Estilos para campos de entrada con clase 'styled-input' */
+.styled-input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Estilos de campos de entrada cuando están enfocados */
+.styled-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilos para el texto de marcador de posición en campos de entrada */
+.styled-input::placeholder {
+  color: #aaa;
+}
+
+/* Estilos para botones con clase 'styled-button' */
+.styled-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos para botones cuando se encuentran en estado 'hover' */
+.styled-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para enlaces con clase 'styled-link' */
+.styled-link {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Estilos para formularios con clase 'styled-form' */
+.styled-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
